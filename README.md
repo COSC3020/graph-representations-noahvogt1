@@ -29,6 +29,14 @@ the inner loop is iterating over all of the edges between any of the given
 verticies which gives us the j complexity. Therefore I believe that the complexity
 relies on both in this case.
 
+I couldn't quite get the code for the reverse to work. However, I think I have a good
+basis of how to do it. I would have to initialize an array of size # of verticies * #
+of verticies. Then I can do a double for loop through the list to find where there are 
+edges between verticies and then put a 1 where there are in the corresponding spot in
+the matrix. I kinda just ran out of time though and don't have a way to save my work.
+The runtime complexity seems like it would end up being $O(V * E)$ because we would have
+a loop that runs over all of the verticies and then all of the edges in each vertex.
+
 ## Bonus
 
 Implement a function to convert an adjacency list to an adjacency matrix and
