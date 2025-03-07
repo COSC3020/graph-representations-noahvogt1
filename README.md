@@ -12,8 +12,12 @@ try not to peek before attempting to solve it on your own.
 What is the runtime complexity of the conversion that you implemented? Does it
 depend on the number of vertices, the number of edges, or both?
 
-Describe your reasoning and the conclusion you've come to. Your reasoning is the
-most important part. Add your answer to this markdown file.
+To me it seems like the complexity would be $O(i * j)$  in my case because the
+outer loop runs over all of the rows in the adjacency matrix and initializes
+an empty list for said row. Then the inner loop runs over the columns of the
+matrix and determines whether there is a connection between the two nodes.
+Therefore i being the height and j being the width of the matrix it should be
+$O(i * j)$. 
 
 ## Bonus
 
