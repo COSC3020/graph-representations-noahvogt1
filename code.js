@@ -1,5 +1,5 @@
 function convertToAdjList(adjMatrix) {
-    let adjList = [];
+    let adjList = {};
 
     for (let i = 0; i < matrix.length; i++) {
     adjList[i] = [];
