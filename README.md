@@ -15,8 +15,10 @@ try not to peek before attempting to solve it on your own.
 What is the runtime complexity of the conversion that you implemented? Does it
 depend on the number of vertices, the number of edges, or both?
 
-To me it seems like the complexity would be $O(i * j)$  (i in this case would
-be the verticies and j would be the possible edges between said verticies) in 
+To me it seems like the complexity would be $O(i^2)$  (i in this case would be the
+verticies, I realized that although yes you are technically checking all of the edges
+you are still iterating over the verticies to check the edges, this means that regardless
+of if there are any edges between the verticies you will always run $i^2$  number of times) in 
 my case because theouter loop runs over all of the rows in the adjacency matrix 
 and initializesan empty list for said row. Then the inner loop runs over the 
 columns of thematrix and determines whether there is a connection between the 
