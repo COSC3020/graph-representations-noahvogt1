@@ -1,10 +1,10 @@
 function convertToAdjList(adjMatrix) {
-    let adjList = {};
+    let adjList = [];
 
-    for (let i = 0; i < matrix.length; i++) {
+    for (let i = 0; i < adjMatrix.length; i++) {
     adjList[i] = [];
-    for (let j = 0; j < matrix[i].length; j++) {
-      if (matrix[i][j] === 1) {
+    for (let j = 0; j < adjMatrix[i].length; j++) {
+      if (adjMatrix[i][j] === 1) {
         adjList[i].push(j);
       }
     }
