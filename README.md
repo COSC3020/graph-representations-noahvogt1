@@ -1,4 +1,7 @@
 # Graph Representations
+I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
+
+I used information from the slides to help understand the matrix a little better along with the terms to make sure I had it exactly right.
 
 Implement a function that converts an adjacency matrix to an adjacency list for
 a directed unweighted graph using the template in `code.js`. Test your new
